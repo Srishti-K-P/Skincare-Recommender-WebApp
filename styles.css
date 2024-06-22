@@ -1,0 +1,253 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url("https://i.pinimg.com/564x/e0/f8/50/e0f850e86b16adb22ac4a19379d49fd4.jpg");
+    height: 100%;
+    background-attachment:fixed;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 100px;
+    background-image: url('https://t4.ftcdn.net/jpg/06/33/65/45/240_F_633654573_WOZ53zpeNgjyZft4CvW5fKS6PCztULDH.jpg');
+    height: 150%;
+    background-attachment:fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 8px;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);
+}
+
+.message {
+    margin-bottom: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    margin-left: 300px;
+    color: #605b5b;
+}
+
+
+.selections, .categories {
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: bold;  
+}
+
+.selections h2, .categories h2 {
+    margin-bottom: 20px;
+    font-size: 30px; 
+    font-weight: bold;
+    color: rgb(251, 251, 251);   
+}
+
+.selections input[type="checkbox"], .selections input[type="radio"] {
+    margin-right: 20px;
+    margin-bottom: 20px;  
+}
+
+
+.btn {
+    background-color: #7ca1a1;
+    color: rgb(251, 251, 251);
+    padding: 8px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    font-size: 18px; 
+    font-weight: bold;   
+}
+
+.btn:hover {
+    background-color: #ca7dbe;
+}
+
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 10px -5px;
+    
+   
+    
+}
+
+.product {
+    width: 200px;
+    height: 350px;
+    margin-bottom: 100px;
+    margin-right:50px;
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    margin-top:60px;
+}
+
+.product:hover {
+    transform: translateY(-35px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.8);
+    
+}
+
+.product-img {
+    width: 100%;
+    height: 70%;
+    border-radius: 5px;
+    
+}
+
+.product-name {
+    margin-top: 30px;
+    font-size: 20px; 
+    font-weight: bold;
+    color: #0e0c0c;
+    border: 1px solid #3d3a3a; 
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: #bc5d5d;
+}
+
+
+.marquee {
+    font-size: 20px;
+    color: #f9f6f6;
+    background-color: #7ca1a1;
+    padding: 5px;
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    animation: marquee 20s linear infinite;
+}
+
+.marquee marquee {
+    width: 100%;
+    white-space: nowrap;
+}
+
+.banner {
+    background-color: #ffeeba;
+    padding: 10px;
+    text-align: center;
+    margin-top: 0px;
+    width: 100%;
+}
+
+.footer {
+    background-color: #4e5156;
+    color: white;
+    text-align: center;
+    padding: 1px 0;
+    position: relative; 
+    z-index: 1000; 
+    margin-top: auto; 
+    width: 100%; 
+    display: flex;
+    bottom: 0;
+    height: 10%;
+    justify-content: space-between; 
+    align-items: flex-start;
+    flex-wrap: wrap; 
+}
+
+.footer-section {
+    flex: 1; 
+    padding: 5px;
+}
+
+.footer-section h2 {
+    margin-top: 0;
+}
+
+.footer-section.about-us {
+    text-align: left;
+    font-size: 18px;
+    margin-left: 100px;
+}
+
+
+
+.footer-section.legal {
+    text-align: left;
+    font-size: 18px;
+    margin-left: 250px;
+}
+
+
+
+.footer a {
+    color: white;
+    text-decoration: none;
+    display: block; 
+    margin: 5px 0;
+}
+
+.footer p {
+    margin: 5px 0;
+}
+
+.footer-section.social-media {
+    text-align: center;
+    font-size: 17px;
+    margin-left: 150px;
+}
+
+.footer-section.copyright {
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+}
+
+.social-media-icons {
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    gap: 10px;
+    margin-bottom: 30px;
+}
+
+.social-icon {
+    width: 30px; 
+    height: 30px; 
+    margin: 0 10px; 
+    transition: transform 0.3s ease-in-out;
+}
+
+.social-icon:hover {
+    transform: scale(1.2); 
+}
+
+header {
+    background-color: #d3a9ad;
+    color: white;
+    padding: 0.2px;
+    text-align: center;
+    font-size: 40px; 
+    font-weight: bold;
+}
+
+.header-container {
+    display: flex; /* Make header container a flexbox */
+    align-items: center; /* Align content vertically */
+  }
+  
+  .logo {
+    /* Adjust logo size and margin as needed */
+    width: 350px;
+    height:50px;
+    margin-right: 90px;
+    margin-left:15px;
+    margin-top:5px;
+    margin-bottom: 5px;
+  }
+
+
+
