@@ -235,12 +235,11 @@ header {
 }
 
 .header-container {
-    display: flex; /* Make header container a flexbox */
-    align-items: center; /* Align content vertically */
+    display: flex; 
+    align-items: center; 
   }
   
   .logo {
-    /* Adjust logo size and margin as needed */
     width: 350px;
     height:50px;
     margin-right: 90px;
